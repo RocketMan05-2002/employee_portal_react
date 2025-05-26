@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 10px;
+    background-color: #75b1cd;
+    color: white;
+    span {
+      font-size: 16px;
+      font-weight: 700;
+    }
+    button {
+      padding: 5px 10px;
+      border: none;
+      border-radius: 5px;
+    }
+  }
+  .createEmployee:hover {
+    background-color: #ccc;
+    transform: scale(1.1);
+  }
+  .employees {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+  }
+  .employees > div {
+    height: 450px;
+    overflow-y: scroll;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  .employee__list {
+    width: 30%;
+  }
+  .employee__single {
+    width: 70%;
+  }
+  .employee__list--title,
+  .employee__single--title {
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;sss
+  }
+  .employee__list--info{
+    display: flex;
+    flex-direction: column;
+  }
+  .employee__list--item{
+    background-color: #ccc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    transition: 0.3s;
+  }
+  .employee__list--item:hover{
+    transform: scale(1.05);
+  }
+  .selected{
+    background-color: #818181;
+    color: white;
+  }
+  .employee__single--info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    img{
+      margin-top: 10px;
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+    }
+  }
+  .addEmployee{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+  }
+  .addEmployee_create{
+    width:400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap:10px;
+    border-radius: 5px;
+    div{
+      display:grid;
+      grid-template-columns: 48% 48%;
+      column-gap: 15px;
+    }
+    input{
+      padding:5px 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  }
+  .addEmployee_create input:nth-child(8){
+    background-color: #818181;
+    color: white;
+  }
