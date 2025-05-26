@@ -51,7 +51,7 @@
   .employee__list--title,
   .employee__single--title {
     border-bottom: 1px solid black;
-    margin-bottom: 10px;sss
+    margin-bottom: 10px;
   }
   .employee__list--info{
     display: flex;
