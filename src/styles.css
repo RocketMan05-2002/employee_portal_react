@@ -18,13 +18,14 @@
     background-color: #75b1cd;
     color: white;
     span {
-      font-size: 16px;
+      font-size: 25px;
       font-weight: 700;
     }
     button {
       padding: 5px 10px;
       border: none;
       border-radius: 5px;
+      font-size: 16px;
     }
   }
   .createEmployee:hover {
@@ -52,6 +53,7 @@
   .employee__single--title {
     border-bottom: 1px solid black;
     margin-bottom: 10px;
+    font-size: 16px;
   }
   .employee__list--info{
     display: flex;
@@ -64,8 +66,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 10px;
+    padding: 7px 12px;
     transition: 0.3s;
+    font-size: 20px;
   }
   .employee__list--item:hover{
     transform: scale(1.05);

@@ -79,7 +79,7 @@ export default function App() {
   return (
     <div className="App">
       <header className="header">
-        <span>Employee DBMS </span>
+        <span>Employee Database Management System </span>
         <button className="createEmployee" onClick={() => setShowForm(true)}>
           Add Employee
         </button>
